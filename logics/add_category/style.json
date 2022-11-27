@@ -1,0 +1,67 @@
+{
+  "QMainWindow": [
+    {
+      "tittle": "My New Tittle",
+      "frameless": true,
+      "transluscentBg": false,
+      "sizeGrip": "size_grip",
+      "shadow": [
+        {
+          "color": "#fff",
+          "blurRadius": 20,
+          "xOffset": 0,
+          "yOffset": 0,
+          "centralWidget": "centralwidget"
+        }
+      ],
+      "navigation": [
+        {
+          "minimize": "minimize_window_button",
+          "close": "close_window_button",
+          "x": 50,
+          "y": 50,
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": ":/icons/icons_images/bar_maximize-2.svg",
+              "maximizedIcon": ":/icons/icons_images/bar_minimize-2.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QCard": [
+    {
+      "cards": [
+        "frame_39"
+      ],
+      "shadow": [
+        {
+          "color": "black",
+          "blurRadius": 5,
+          "xOffset": 1,
+          "yOffset": 1
+        }
+      ]
+    },
+    {
+      "cards": [
+        "lineEdit",
+        "frame",
+        "comboBox",
+        "frame_4"
+
+
+      ],
+      "shadow": [
+        {
+          "color": "black",
+          "blurRadius": 3,
+          "xOffset": 1,
+          "yOffset": 1
+        }
+      ]
+    }
+  ]
+}
