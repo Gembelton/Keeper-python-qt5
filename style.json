@@ -1,0 +1,114 @@
+{
+  "QCustomSlideMenu": [
+    {
+      "x": 0,
+      "name": "side_menu",
+      "defaultSize": [
+        {
+          "width": 150,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "x": 0,
+          "width": 50,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "x": 0,
+          "width": 150,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "pushButton_menu",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/icons/icons_images/align-justify_black.svg",
+              "whenMenuIsExpanded": ":/icons/icons_images/chevrons-left_black.svg"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 700,
+          "animationEasingCurve": "OutBack"
+        }
+      ]
+    }
+  ],
+  "QMainWindow": [
+    {
+      "tittle": "My New Tittle",
+      "icon": ":/icons/icons/github.svg",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "size_grip",
+
+
+      "navigation": [
+        {
+          "minimize": "minimize_window_button",
+          "close": "close_window_button",
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": ":/icons/icons_images/bar_maximize-2.svg",
+              "maximizedIcon": ":/icons/icons_images/bar_minimize-2.svg"
+            }
+          ],
+          "moveWindow": "header_frame"
+        }
+      ]
+    }
+  ],
+  "QCard": [
+    {
+      "cards": [
+        "frame_12",
+        "frame_3",
+        "frame_9",
+        "frame_30",
+        "frame_23",
+        "frame_19",
+        "frame_35",
+        "frame_39"
+      ],
+      "shadow": [
+        {
+          "color": "black",
+          "blurRadius": 5,
+          "xOffset": 1,
+          "yOffset": 1
+        }
+      ]
+    },
+    {
+      "cards": [
+        "frame_14",
+        "frame_17",
+        "frame_16",
+        "frame_29",
+        "frame_21",
+        "frame_32",
+        "comboBox_categories",
+        "radioButton_enable_cat_filter",
+        "frame_37",
+        "label_5"
+      ],
+      "shadow": [
+        {
+          "color": "black",
+          "blurRadius": 3,
+          "xOffset": 1,
+          "yOffset": 1
+        }
+      ]
+    }
+  ]
+}
