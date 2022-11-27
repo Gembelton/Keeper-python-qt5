@@ -6,8 +6,8 @@ def set_connection_to_db():
     """Установка соединения с бд"""
 
     current_path = "P:\soft\SQLiteStudio"
-    conn = sqlite3.connect(current_path + '\money_base')
-    # conn = sqlite3.connect('money_base')
+    #conn = sqlite3.connect(current_path + '\money_base')
+    conn = sqlite3.connect('money_base')
     conn.execute("PRAGMA foreign_keys = ON")
     cursor = conn.cursor()
     return conn, cursor
